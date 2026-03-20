@@ -270,36 +270,20 @@ Role (manager / employee / none)
 IsConfirmed (bit)
 
 RefreshToken — для Google API
-
 DutyZones
 Id — PK
-
 Name
-
 Polygon — GeoJSON / текст
-
-(опционально: описание, цвет и т.п.)
-
 DutyShifts
 Id — PK
-
 UserId — FK → Users
-
 ZoneId — FK → DutyZones
-
 StartTime — datetime
-
 EndTime — datetime
-
 CalendarEventId — ID события в Google Calendar
-
-Tracks (если храним часть данных у себя)
+Tracks 
 Id — PK
-
 Date
-
 ZoneId — FK → DutyZones
-
 Animal / Type
-
 Count
