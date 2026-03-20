@@ -1,0 +1,38 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="DEP" name="Deployment">
+    <mxGraphModel dx="827" dy="548" grid="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Nodes -->
+        <mxCell id="Frontend" value="Browser / React App" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="Backend" value="Backend / Node.js / Express" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="240" height="160" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="DB" value="MSSQL Server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="Google" value="Google APIs&#xa;OAuth&#xa;Calendar&#xa;Sheets&#xa;Docs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="240" height="160" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="Mapbox" value="Mapbox Cloud" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="c1" edge="1" parent="1" source="Frontend" target="Backend"/>
+        <mxCell id="c2" edge="1" parent="1" source="Backend" target="DB"/>
+        <mxCell id="c3" edge="1" parent="1" source="Backend" target="Google"/>
+        <mxCell id="c4" edge="1" parent="1" source="Frontend" target="Mapbox"/>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

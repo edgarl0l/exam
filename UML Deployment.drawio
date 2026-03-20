@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4">
+  <diagram name="Страница-1" id="s2iyx-_vPZu0ybI58JJw">
+    <mxGraphModel dx="1418" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-88" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Внешние сервисы" vertex="1">
+          <mxGeometry height="200" width="442" x="291" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-89" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Уровень данных" vertex="1">
+          <mxGeometry height="200" width="251" x="20" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-90" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Прикладной уровень" vertex="1">
+          <mxGeometry height="128" width="418" x="62" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-91" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Клиентский уровень" vertex="1">
+          <mxGeometry height="128" width="491" x="195" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-92" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#4A90E2;strokeColor=#2E5C8A;fontColor=#fff;" value="&lt;b&gt;User Browser&lt;/b&gt;&#xa;React Frontend" vertex="1">
+          <mxGeometry height="78" width="170" x="296" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-93" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#7B68EE;strokeColor=#4A3F8F;fontColor=#fff;" value="&lt;b&gt;Backend Server&lt;/b&gt;&#xa;Node.js + Express" vertex="1">
+          <mxGeometry height="78" width="186" x="182" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-94" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FF6B6B;strokeColor=#8B3A3A;fontColor=#fff;" value="&lt;b&gt;Database Server&lt;/b&gt;&#xa;MSSQL" vertex="1">
+          <mxGeometry height="78" width="181" x="55" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-95" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#50C878;strokeColor=#2D7A4A;fontColor=#fff;" value="&lt;b&gt;Google Cloud&lt;/b&gt;&#xa;OAuth&#xa;Calendar&#xa;Sheets&#xa;Docs" vertex="1">
+          <mxGeometry height="150" width="158" x="326" y="449" as="geometry" />
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-96" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FFB347;strokeColor=#8B6914;fontColor=#fff;" value="&lt;b&gt;Mapbox Cloud&lt;/b&gt;&#xa;Map Tiles&#xa;Dataset API" vertex="1">
+          <mxGeometry height="102" width="164" x="534" y="473" as="geometry" />
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-97" edge="1" parent="1" source="O3zQtV0o_rD5r-xtECw0-92" style="curved=1;startArrow=block;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="O3zQtV0o_rD5r-xtECw0-93" value="HTTP/HTTPS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-98" edge="1" parent="1" source="O3zQtV0o_rD5r-xtECw0-93" style="curved=1;startArrow=block;endArrow=block;exitX=0.08;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="O3zQtV0o_rD5r-xtECw0-94" value="SQL Query">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-99" edge="1" parent="1" source="O3zQtV0o_rD5r-xtECw0-93" style="curved=1;startArrow=block;endArrow=block;exitX=0.93;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="O3zQtV0o_rD5r-xtECw0-95" value="API Request">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3zQtV0o_rD5r-xtECw0-100" edge="1" parent="1" source="O3zQtV0o_rD5r-xtECw0-92" style="curved=1;startArrow=block;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=0;rounded=0;" target="O3zQtV0o_rD5r-xtECw0-96" value="API Request">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

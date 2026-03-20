@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4">
+  <diagram name="Страница-1" id="lmLRNIhfoBtbd_VclbM7">
+    <mxGraphModel dx="2495" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="us671Ror9epYrMDHSonF-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;" value="A-0: Планирование и учёт дежурств сотрудников" vertex="1">
+          <mxGeometry height="160" width="280" x="20" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-65" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=right;verticalAlign=bottom;" target="us671Ror9epYrMDHSonF-64" value="Заявки на дежурства">
+          <mxGeometry relative="1" x="-0.7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-180" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-66" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=right;verticalAlign=bottom;" target="us671Ror9epYrMDHSonF-64" value="Результаты наблюдений (Google Sheets)">
+          <mxGeometry relative="1" x="-0.7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-180" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-67" edge="1" parent="1" source="us671Ror9epYrMDHSonF-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.2;exitDx=0;exitDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=bottom;" value="Расписание дежурств">
+          <mxGeometry relative="1" x="0.6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="500" y="272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-68" edge="1" parent="1" source="us671Ror9epYrMDHSonF-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=bottom;" value="Отчёты">
+          <mxGeometry relative="1" x="0.6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="500" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-69" edge="1" parent="1" source="us671Ror9epYrMDHSonF-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.8;exitDx=0;exitDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=bottom;" value="События Google Calendar">
+          <mxGeometry relative="1" x="0.6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="500" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-70" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=top;rotation=0;" target="us671Ror9epYrMDHSonF-64" value="Регламент дежурств">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="76" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-71" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=top;" target="us671Ror9epYrMDHSonF-64" value="Политика безопасности">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="160" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-72" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=top;" target="us671Ror9epYrMDHSonF-64" value="Требования к отчётности">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="244" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-73" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=bottom;" target="us671Ror9epYrMDHSonF-64" value="Менеджер">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="48" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-74" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.3;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=bottom;" target="us671Ror9epYrMDHSonF-64" value="Сотрудники">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="104" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-75" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=bottom;" target="us671Ror9epYrMDHSonF-64" value="Информационная система (backend + frontend)">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="160" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-76" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.7;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=bottom;" target="us671Ror9epYrMDHSonF-64" value="Google API (OAuth, Calendar, Sheets, Docs)">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="216" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us671Ror9epYrMDHSonF-77" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;labelBackgroundColor=none;align=left;verticalAlign=bottom;" target="us671Ror9epYrMDHSonF-64" value="Mapbox">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="272" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
